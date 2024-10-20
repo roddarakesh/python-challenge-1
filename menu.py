@@ -206,7 +206,7 @@ for order_item in order:
     item_name_spaces = " " * num_item_name_spaces
 
     # 10. Print the item name, price, and quantity
-    print(f" {item_name}{item_name_spaces} | ${price} | {quantity}")
+    print(f" {item_name}{item_name_spaces} | ${price}  | {quantity}")
 
 # 11. Calculate the cost of the order using list comprehension
 # Multiply the price by quantity for each item in the order list, then sum()
